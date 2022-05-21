@@ -14,5 +14,17 @@ a {
 }
 
 .seccion1 {
-  background-image: url(../img/ico/color_MesadeTrabajo1.png);
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/index/Index1.jpg);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15rem;
+  font-weight: 700;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
