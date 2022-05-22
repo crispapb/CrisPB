@@ -13,6 +13,10 @@ a {
   background-color: black;
 }
 
+.textohednav {
+  font: "Poppins", sans-serif;
+}
+
 .seccion1 {
   width: 100vw;
   height: 100vh;
