@@ -21,6 +21,8 @@ a {
   width: 100vw;
   height: 100vh;
   background-image: url(../img/index/Index1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 15rem;
