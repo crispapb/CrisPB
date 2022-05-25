@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -38,3 +42,10 @@ a {
 .seccion2 {
   font-family: "Roboto", sans-serif;
 }
+
+/*-------------------------------------------------------------- 
+
+# Estilos Scroll 
+
+--------------------------------------------------------------*/
+/*background: white, 0.2;*/
