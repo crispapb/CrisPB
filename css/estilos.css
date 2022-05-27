@@ -11,6 +11,18 @@ a {
   text-decoration: none;
 }
 
+.boton {
+  background-color: #161616;
+  padding: 3% 8%;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border-radius: 20px;
+}
+.boton:hover {
+  background-color: #000000;
+  color: white;
+}
+
 .barranav {
   font: "Poppins", sans-serif;
   color: white;

@@ -15,6 +15,19 @@ a{
     text-decoration: none;
 }
 
+.boton{
+    background-color: #161616;
+    padding: 3% 8%;
+    font-family: $Poppins;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+    &:hover{
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+    }
+}
+
 .barranav{
     font: $Poppins;
     color: rgb(255, 255, 255); 
