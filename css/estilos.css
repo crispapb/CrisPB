@@ -57,6 +57,12 @@ a {
 
 .footer {
   background-color: #161616;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer1 {
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
 }
 
 /*-------------------------------------------------------------- 
