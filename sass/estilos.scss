@@ -63,11 +63,26 @@ a{
 .footer{
     background-color: #161616;
     font-family: $Poppins;
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+       }
+
 }
+
+
 
 .footer1{
     background-color: #000000;
     font-family: $Poppins;
+    color: white;
+    a {
+        text-decoration: none;
+        color: white;
+       }
+
 }
 
 
