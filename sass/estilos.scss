@@ -92,14 +92,14 @@ a{
 
 --------------------------------------------------------------*/ 
 
-//body::-webkit-scrollbar { 
-   // width: 10px; 
-   // background: purple; 
- // } 
+body::-webkit-scrollbar { 
+width: 10px; 
+    background: #424242; 
+  } 
 
- // body::-webkit-scrollbar-thumb { 
-    /*background: white, 0.2;*/ 
-  //  border-radius: 10px; 
-  //  border-right: 10px solid $color3; 
-  //} 
+  body::-webkit-scrollbar-thumb { 
+    //background: white, 0.2;
+   border-radius: 10px; 
+   border-right: 10px solid #ffffff; 
+  } 
   
