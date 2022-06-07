@@ -23,6 +23,18 @@ a {
   color: white;
 }
 
+.boton2 {
+  background-color: #161616;
+  padding: 1% 4%;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border-radius: 20px;
+}
+.boton2:hover {
+  background-color: #000000;
+  color: white;
+}
+
 .barranav {
   font: "Poppins", sans-serif;
   color: white;
