@@ -11,6 +11,11 @@ a {
   text-decoration: none;
 }
 
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
 .boton {
   background-color: #161616;
   padding: 3% 8%;
