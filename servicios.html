@@ -186,33 +186,47 @@
         </div>
       </div>
     </section> 
-    <!--Formulario-->
+    <!--Contáctame-->
     <section class="py-5 seccion2">
       <div class="container">
-        <div class="row align-items-center ">
-          <div class="col-lg-6 px-3">
-            <h2>CONTACTAME</h2>
+        <div class="row align-items-top">
+          <div class="col-lg-6 px-3 pb-5">
+            <h2>PERZONALIZA TU EXPERIENCIA</h2>
+            <br>
             <p style="text-align: justify;">
-              Actualmente resido en Salamanca Gto. México, puede ser que no estes 
-              interesado en  alguno de los paquetes que ofrezco, y 
-              es perfectamente valido, así como tambien puede ser
-              que quieras uno para ti unicamente, algo más personalizado,
-              o alguno de los que tengo para ofrecer, de igual manera,
-              por favor, escribeme un correo sí es que te interesa alguna
-              de mis seciones, y asi nos podemos poner de acuerdo con mas detalle.
+              Aunque estoy en León,Gto. México mis servicios están diseñados para adaptarse a ti,
+              y puedo desplazarme a donde sea necesario. 
+              Igualmente no encontrarás un "paquete de eventos" estándar aquí, 
+              porque cada ocasión es única. Me gusta crear experiencias completamente personalizadas según tus necesidades,
+              ya sea un evento especial, una sesión fotográfica individual o cualquier otro proyecto.
+              Si ninguno de mis paquetes actuales se ajusta a lo que buscas, no te preocupes. 
+              Escríbeme, cuéntame lo que tienes en mente, y juntos planificaremos cada detalle 
+              para que sea justo lo que necesitas.
+            </p>
+            <br>
+            <p style="text-align: justify;">
+              contratarme es un proceso. Primero, me contactas para contarme sobre tu proyecto o evento. 
+              Hablamos de los detalles: qué necesitas, fechas, ubicación y cualquier requerimiento especial.
+              Con esa información, preparo una cotización personalizada que recibirás por correo y/o wahtasapp. 
+              Una vez que recibas la cotización, firmamos el acuerdo y se realiza el depósito inicial. 
+              Con esto, tu reserva queda confirmada y estaremos listos para comenzar.
               <br>
               <br>
               Gracias por darme la confianza de capturar un instante para ti.
             </p>
             <hr>
-            <br>
             <div style="text-align: center;">
-              <img src="img/servicios/ubi_sj.jpg" alt="Salamanca centro" width="80%" >
+             <p>
+              Si quieres ver un ejemplo de cómo es una cotización, descárgala haciendo clic en el botón a continuación.
+             </p> 
+             <br>
+             <a href="docs/Ejemplo_cotización.pdf" class="boton" download="Ejemplo_cotización.pdf">Descargar ejemplo de cotización</a>
             </div>
-            </div>
+          </div>
            
           <!--formulario-->
           <div class="col-lg-6">
+            <h2>CONTÁCTAME</h2>
             <form id="Formulario"> 
 
               <div class="my-3"> 
@@ -300,7 +314,7 @@
             const direccion = $("#Direccion").val(); 
             const mensaje = $("#Mensaje").val(); 
 
-            const referencia = "mailto:crispispics@hotmail.com?subject=Peticion%20de%20informacion&body=Nombre:%20"+nombre+"%0D%0ACorreo:%20"+correo+"%0D%0ATelefono:%20"+tel+"%0D%0ADirección:%20"+direccion+"%0D%0AMensaje:%20"+mensaje; 
+            const referencia = "mailto:crispapompa@gmail.com?subject=Peticion%20de%20informacion&body=Nombre:%20"+nombre+"%0D%0ACorreo:%20"+correo+"%0D%0ATelefono:%20"+tel+"%0D%0ADirección:%20"+direccion+"%0D%0AMensaje:%20"+mensaje; 
             const enlace = document.createElement("a"); 
             enlace.href = referencia; 
             enlace.click();   
