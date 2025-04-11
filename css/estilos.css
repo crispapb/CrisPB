@@ -40,6 +40,18 @@ h6 {
   color: white;
 }
 
+.boton3 {
+  background-color: #161616;
+  padding: 2% 3%;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border-radius: 20px;
+}
+.boton3:hover {
+  background-color: #000000;
+  color: white;
+}
+
 .barranav {
   font: "Poppins", sans-serif;
   color: white;

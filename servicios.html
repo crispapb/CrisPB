@@ -19,7 +19,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
        
-        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="sass/dist/estilos.css">
 </head>
 
 <body>
@@ -70,93 +70,256 @@
         <!--Fotografía publicitaria-->
         <div class="col-lg-4">
           <img src="img/paquetes/Foto-Publi-libro.png" alt="Paquete infantil" width="100%">
-          <button type="button" class="boton" data-bs-toggle="modal" data-bs-target="#modalFP">
+          <button type="button" class="boton2" data-bs-toggle="modal" data-bs-target="#modalFPP">
            Ver más
           </button>
         </div>
           <!--modal 1-->
-        <div class="modal fade" id="modalFP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+        <div class="modal fade" id="modalFPP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
                <div class="modal-content">
                   <div class="modal-header">
                   <h5 class="modal-title seccion2" id="exampleModalLabel" style="text-align: center;">Fotografía publicitaria</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                </div>
             <div class="modal-body seccion2">
-              <!--precios-->
+              <!--carrusel de precios-->
               <div class="conatiner">
                 <div class="row justify-content-center align-items-center">
-                  <div class="col-lg-9">
-                    <h1>$2,750</h1>
-                    <br>
-                    <p style="text-align: justify;">
-                      Este es mi paquete comunmente más solicitado.
-                      <br>
-                      Se tiene una sesión de 2 horas en el establecimiento o 
-                      locación y se entregan un total de <u>60 fotografías digitales optimizadas para redes sociales</u>
-                      con licencia comercial  y se entregan en un plazo de 3 a 10 días hábiles.        
-                    </p>
+                  <div class="col-lg-10">
+                    <div id="Paquetespubli" class="carousel carousel-dark slide" data-bs-touch="false" data-bs-interval="false">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="container">
+                            <div class="row justify-content-center align-items-center">
+                              <div class="col-lg-8 text-center">
+                                <h1>Paquete 1</h1>
+                                <h2>$2,500.00</h2>
+                                <br>
+                                <br>
+                                <p style="text-align: justify;">
+                                  Este paquete incluye:
+                                  <br>
+                                  <br>
+                                  • 20 fotografías digitales <u>optimizadas para redes sociales.</u>
+                                  <br>
+                                  • la sesión tiene una duración maxima de 1 horas (en locación).
+                                  <br>
+                                  • Licencia comercial.
+                                  <br>
+                                  <br>
+                                  Se entregan en un plazo de 3 a 5 días hábiles.        
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="container">
+                            <div class="row justify-content-center align-items-center">
+                              <div class="col-lg-8 text-center">
+                                <h1>Paquete 2</h1>
+                                <h2>$3,750.00</h2>
+                                <br>
+                                <br>
+                                <p style="text-align: justify;">
+                                  Este paquete incluye:
+                                  <br>
+                                  <br>
+                                  • 45 fotografías digitales <u>optimizadas para redes sociales.</u>
+                                  <br>
+                                  • la sesión tiene una duración maxima de 2 horas (en locación).
+                                  <br>
+                                  • Licencia comercial.
+                                  <br>
+                                  <br>
+                                  Se entregan en un plazo de 3 a 10 días hábiles.        
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="container">
+                            <div class="row justify-content-center align-items-center">
+                              <div class="col-lg-8 text-center">
+                                <h1>Paquete 3</h1>
+                                <h2>$6,500.00</h2>
+                                <br>
+                                <p style="text-align: justify;">
+                                  Este paquete incluye:
+                                  <br>
+                                  <br>
+                                  • 70 fotografías digitales <u>optimizadas para redes sociales.</u>
+                                  <br>
+                                  • la sesión tiene una duración maxima de 4 horas (en locación).
+                                  <br>
+                                  • Licencia comercial.
+                                  <br>
+                                  • Retoque profundo.
+                                  <br>
+                                  <br>
+                                  Se entregan en un plazo de 5 a 15 días hábiles.        
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#Paquetespubli" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#Paquetespubli" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <br>
         <div class="aling-items-center pb-5">
-        <a href="https://wa.me/message/7DTW37ROZJ5CP1" target="_blank" class="boton">Escribeme a wahtasapp</a>
+        <a href="https://wa.me/message/7DTW37ROZJ5CP1" target="_blank" class="boton3">Escribeme a wahtasapp</a>
         </div>
         </div>
         </div>
         </div>
+
+
         <!--Fotografía social-->
         <div class="col-lg-4">
           <img src="img/paquetes/Foto-social-libro.png" alt="Paquete infantil" width="100%">
-          <button type="button" class="boton" data-bs-toggle="modal" data-bs-target="#modalFS">
+          <button type="button" class="boton2" data-bs-toggle="modal" data-bs-target="#modalFSP">
            Ver más
           </button>
         </div>
           <!--modal 2-->
-        <div class="modal fade" id="modalFS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+        <div class="modal fade" id="modalFSP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
                <div class="modal-content">
                   <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLabel">Fotografía social</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                </div>
             <div class="modal-body">
-              <!--precios-->
+
+              <!--carrusel de precios-->
               <div class="conatiner">
                 <div class="row justify-content-center align-items-center">
-                  <div class="col-lg-9">
-                    <h1>$1,750</h1>
-                    <br>
-                    <p style="text-align: justify;">
-                      Este es mi paquete es para quienes buscan fotos de uso personal.
-                      <br>
-                      Se tiene una sesión de 45 minutos en la locación y se entregan 
-                      una selección de las mejores fotos con un minimo de <u>45 fotografías digitales optimizadas
-                      para redes sociales</u> con licencia de uso personal y se entregan en un plazo de 3 a 10 días hábiles.
-                    </p>
+                  <div class="col-lg-10">
+                    <div id="Paquetessoci" class="carousel carousel-dark slide" data-bs-touch="false" data-bs-interval="false">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="container">
+                            <div class="row justify-content-center align-items-center">
+                              <div class="col-lg-8 text-center">
+                                <h1>Paquete 1</h1>
+                                <h2>$1,750.00</h2>           
+                                <br>
+                                <p style="text-align: justify;">
+                                  Este paquete incluye:
+                                  <br>
+                                  <br>
+                                  • 45 fotografías digitales <u>optimizadas para redes sociales.</u>
+                                  <br>
+                                  • la sesión tiene una duración de 45 minutos (en locación).
+                                  <br>
+                                  • Licencia de uso personal y en redes sociales.                                 
+                                  <br>
+                                  • Edición básica.
+                                  <br>
+                                  Se entregan en un plazo de 3 a 5 días hábiles.        
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="container">
+                            <div class="row justify-content-center align-items-center">
+                              <div class="col-lg-8 text-center">
+                                <h1>Paquete 2</h1>
+                                <h2>$3,500.00</h2>           
+                                <br>
+                                <p style="text-align: justify;">
+                                  Este paquete incluye:
+                                  <br>
+                                  <br>
+                                  • 90 fotografías digitales <u>optimizadas para redes sociales.</u>
+                                  <br>
+                                  • la sesión tiene una duración de 1 hora 30 minutos (en locación).
+                                  <br>
+                                  • Licencia de uso personal y en redes sociales.                                 
+                                  <br>
+                                  • Edición detallada.
+                                  <br>
+                                  Se entregan en un plazo de 5 a 7 días hábiles.        
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="container">
+                            <div class="row justify-content-center align-items-center">
+                              <div class="col-lg-8 text-center">
+                                <h1>Paquete 3</h1>
+                                <h2>$5,500.00</h2>           
+                                <br>
+                                <p style="text-align: justify;">
+                                  Este paquete incluye:
+                                  <br>
+                                  • 120 fotografías digitales <u>optimizadas para redes sociales.</u>
+                                  <br>
+                                  • la sesión tiene una duración de 3 horas(en locación).
+                                  <br>
+                                  • Licencia de uso personal y en redes sociales.                                 
+                                  <br>
+                                  • Edición profunda.
+                                  <br>
+                                  • selección de las 120 imagenes para edición.
+                                  <br>
+                                  Se entregan en un plazo de 5 a 7 días hábiles.        
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#Paquetessoci" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#Paquetessoci" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
           </div>
           <br>
           <div class="aling-items-center pb-5">
-          <a href="https://wa.me/message/7DTW37ROZJ5CP1" target="_blank" class="boton">Escribeme a wahtasapp</a>
+          <a href="https://wa.me/message/7DTW37ROZJ5CP1" target="_blank" class="boton3">Escribeme a wahtasapp</a>
           </div>
         </div>
         </div>
         </div>
+
+
         <!--Fotografía de estudio-->
         <div class="col-lg-4">
           <img src="img/paquetes/Foto-estudio-libro.png" alt="Paquete infantil" width="100%">
-          <button type="button" class="boton" data-bs-toggle="modal" data-bs-target="#modalRS">
+          <button type="button" class="boton2" data-bs-toggle="modal" data-bs-target="#modalRSP">
            Ver más
           </button>
         </div>
           <!--modal 3-->
-        <div class="modal fade" id="modalRS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+        <div class="modal fade" id="modalRSP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
                <div class="modal-content">
                   <div class="modal-header">
                   <h5 class="modal-title seccion2" id="exampleModalLabel">Fotografía de estudio</h5>
@@ -166,15 +329,26 @@
              <!--precios-->
              <div class="conatiner">
               <div class="row justify-content-center align-items-center seccion2">
-                <div class="col-lg-9">
-                  <h1>$350 c/u</h1>
+                <div class="col-lg-7">
+                  <h1>$350 C/U</h1>
+                  <br>
                   <br>
                   <p style="text-align: justify;">
-                   Se realiza una sesión de fotos en un espacio cerrado
-                   con luz artificia y las fotos se seleccionan de manera
-                   individual  se entrregan en <u>alta resolucion y opyimizadas para redes sociales</u>
-                   estas fotografías se pueden imprimir en cualquier tamaño y ser utilizdas 
-                   con licencia unicamente de uso personal.
+                    Este tipo de fotografía se trabaja por fotografías
+                    individuales, se realiza:
+                    <br>
+                    <br>
+                    • Sesión en estudio con luz artificial.</u>
+                    <br>
+                    • Entrega en alta resolución y optimizadas para redes sociales.
+                    <br>
+                    • Imprimibles en cualquier tamaño.                                 
+                    <br>
+                    • Edición profunda.
+                    <br>
+                    • Licencia de uso personal únicamente.
+                    <br>
+                    Se entregan en un plazo de 3 a 5 días hábiles.        
                   </p>
                 </div>
               </div>
@@ -182,13 +356,13 @@
           </div>
           <br>
           <div class="aling-items-center pb-5">
-          <a href="https://wa.me/message/7DTW37ROZJ5CP1" target="_blank" class="boton">Escribeme a wahtasapp</a>
+          <a href="https://wa.me/message/7DTW37ROZJ5CP1" target="_blank" class="boton3">Escribeme a wahtasapp</a>
           </div>
         </div>
         </div>
         </div>
       </div>
-    </section> 
+    </section>
     <!--Contáctame-->
     <section class="py-5 seccion2">
       <div class="container">
@@ -256,7 +430,7 @@
                   <label for="message">Comentarios:</label> 
                   <textarea name="message" class="form-control" placeholder="Mensaje" required="" id="Mensaje"></textarea> 
                 </div>
-              <button type="submit" class="boton" name="enviar">Enviar</button> 
+              <button type="submit" class="boton2" name="enviar">Enviar</button> 
             
             </form> 
           </div>
